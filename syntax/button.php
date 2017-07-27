@@ -11,7 +11,7 @@
 // must be run within Dokuwiki
 if (!defined('DOKU_INC')) die();
 
-class syntax_plugin_socialite_button extends DokuWiki_Syntax_Plugin {
+class syntax_plugin_socialite2_button extends DokuWiki_Syntax_Plugin {
     /**
      * @return string Syntax mode type
      */
@@ -37,7 +37,7 @@ class syntax_plugin_socialite_button extends DokuWiki_Syntax_Plugin {
      * @param string $mode Parser mode
      */
     public function connectTo($mode) {
-        $this->Lexer->addSpecialPattern('~~socialite\b.*?~~',$mode,'plugin_socialite_button');
+        $this->Lexer->addSpecialPattern('~~socialite2\b.*?~~',$mode,'plugin_socialite2_button');
     }
 
     /**
@@ -50,7 +50,7 @@ class syntax_plugin_socialite_button extends DokuWiki_Syntax_Plugin {
      * @return array Data for the renderer
      */
     public function handle($match, $state, $pos, Doku_Handler $handler){
-        $match = strtolower(trim(substr($match, 11, -2))); // strip markup
+        $match = strtolower(trim(substr($match, 12, -2))); // strip markup
 
         // checks if a display mode is passed
         if (substr($match, 0, 1) === ':')  {
