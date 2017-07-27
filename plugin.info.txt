@@ -1,7 +1,7 @@
-base   socialite
-author Fernando Ribeiro
-email  pinguim.ribeiro@gmail.com
-date   2015-08-21
-name   Locialite plugin
-desc   Lightweight responsive social buttons
-url    https://www.dokuwiki.org/plugin:socialite
+base   socialite2
+author André Jordan
+email  
+date   2017-07-27
+name   socialite plugin
+desc   Lightweight responsive social buttons fork of https://github.com/fa-ribeiro/dokuwiki-plugin-socialite
+url    https://github.com/dranjor/dokuwiki-plugin-socialite
