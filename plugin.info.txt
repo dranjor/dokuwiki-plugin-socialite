@@ -2,6 +2,6 @@ base   socialite2
 author André Jordan
 email  
 date   2017-07-27
-name   socialite plugin
+name   socialite2 plugin
 desc   Lightweight responsive social buttons fork of https://github.com/fa-ribeiro/dokuwiki-plugin-socialite
 url    https://github.com/dranjor/dokuwiki-plugin-socialite
